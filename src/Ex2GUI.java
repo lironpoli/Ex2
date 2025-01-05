@@ -1,4 +1,3 @@
-package assignments.ex2;
 
 import java.awt.*;
 import java.io.IOException;

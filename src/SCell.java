@@ -1,4 +1,3 @@
-package assignments.ex2;
 // Add your documentation below:
 
 public class SCell implements Cell {
@@ -7,15 +6,15 @@ public class SCell implements Cell {
     // Add your code here
 
     public SCell(String s) {
-        // Add your code here
+        this.line = line;
+        this.type = type;
         setData(s);
     }
 
     @Override
     public int getOrder() {
-        // Add your code here
-
-        return 0;
+        return getOrder();
+        //return 0;
         // ///////////////////
     }
 
@@ -48,7 +47,6 @@ public void setData(String s) {
 
     @Override
     public void setOrder(int t) {
-        // Add your code here
-
+        //////////
     }
 }
